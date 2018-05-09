@@ -2,7 +2,7 @@ This is an upcoming version of Responsive Landing Page for https://myteenmatch.c
 
 I have used Bootstrap 4 and MB Bootstrap for Modal and its button.
 
-There is a known issue in Registeration Modal which will be fixed soon.
+There is a known issue in Registration Modal which will be fixed soon.
 
 
 <img src="https://image.ibb.co/bzXejS/signinmodal.png">
