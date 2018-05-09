@@ -1,0 +1,644 @@
+@charset "UTF-8";
+@media print{
+    *{
+        text-shadow:none!important;
+        color:#000!important;
+        background:0 0!important;
+        box-shadow:none!important
+    }
+    a,a:visited{
+        text-decoration:underline
+    }
+    a[href]:after{
+        content:" (" attr(href) ")"
+    }
+    img{
+        page-break-inside:avoid
+    }
+    img{
+        max-width:100%!important
+    }
+    h2,p{
+        orphans:3;
+        widows:3
+    }
+    h2{
+        page-break-after:avoid
+    }
+}
+@font-face{
+    font-family:'Glyphicons Halflings';
+    src:url(../fonts/glyphicons-halflings-regular.eot);
+    src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../fonts/glyphicons-halflings-regular.woff) format('woff'),url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
+html{
+    -webkit-tap-highlight-color:transparent
+}
+h1,h2{
+    font-family:inherit;
+    font-weight:500;
+    line-height:1.1;
+    color:inherit
+}
+h2 small{
+    font-weight:400;
+    line-height:1;
+    color:#d2d2d2
+}
+h2 small{
+    font-size:65%
+}
+h1{
+    font-size:41px
+}
+small{
+    font-size:87%
+}
+@-ms-viewport{
+    width:device-width
+}
+/*! * Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome * License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License) */
+@font-face{
+    font-family:FontAwesome;
+    src:url(../fonts/extern/fontawesome/fontawesome-webfont.eot?v=4.3.0);
+    src:url(../fonts/extern/fontawesome/fontawesome-webfont.eot?#iefix&v=4.3.0) format('embedded-opentype'),url(../fonts/extern/fontawesome/fontawesome-webfont.woff2?v=4.3.0) format('woff2'),url(../fonts/extern/fontawesome/fontawesome-webfont.woff?v=4.3.0) format('woff'),url(../fonts/extern/fontawesome/fontawesome-webfont.ttf?v=4.3.0) format('truetype'),url(../fonts/extern/fontawesome/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular) format('svg');
+    font-weight:400;
+    font-style:normal
+}
+.capitalize{
+    text-transform:capitalize
+}
+@-moz-document url-prefix(){
+}
+body:after{
+    content:"";
+    display:none
+}
+/*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
+body{
+    margin:0
+}
+section{
+    display:block
+}
+a{
+    background-color:transparent;
+    -webkit-text-decoration-skip:objects;
+    color:#888;
+    text-decoration:inherit
+}
+a:active,a:hover{
+    outline-width:0
+}
+img{
+    vertical-align:middle;
+    border-style:none
+}
+button{
+    font:inherit;
+    margin:0
+}
+button{
+    overflow:visible
+}
+button{
+    text-transform:none
+}
+button{
+    -webkit-appearance:button
+}
+button::-moz-focus-inner{
+    border-style:none;
+    padding:0
+}
+button:-moz-focusring{
+    outline:ButtonText dotted 1px
+}
+::-webkit-file-upload-button{
+    -webkit-appearance:button;
+    font:inherit;
+    cursor:inherit
+}
+@media (min-width:768px){
+    .u-hidden\@sm{
+        display:none!important
+    }
+}
+html{
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    background-color:#f0f0f0;
+    color:#474747;
+    font:300 16px/1.375 Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing:border-box
+}
+*{
+    outline:0!important
+}
+*,::after,::before{
+    border:0 solid;
+    box-sizing:inherit
+}
+h1,h2,p{
+    margin:0;
+    font:inherit
+}
+h1,h2,p{
+    margin-bottom:11px
+}
+h1,h2{
+    font-size:1.1892em;
+    line-height:1.25
+}
+h1:first-child,h2:first-child{
+    margin-top:0
+}
+h1:last-child{
+    margin-bottom:0
+}
+small{
+    font-size:.8409em
+}
+a:hover{
+    color:#6f6e6e;
+    text-decoration:underline
+}
+button{
+    min-width:0;
+    margin:0;
+    padding:0;
+    border:0;
+    background-color:transparent;
+    color:inherit;
+    font:inherit
+}
+a,button{
+    cursor:pointer
+}
+.u-border-transparent{
+    border-color:transparent!important
+}
+.u-border-radius-sm{
+    border-radius:3px!important
+}
+.u-border-radius-round{
+    border-radius:999px!important
+}
+@media (max-width:767px){
+    .u-hidden\@max-sm{
+        display:none!important
+    }
+}
+@media (max-width:479px){
+    .u-hidden\@max-xs{
+        display:none!important
+    }
+}
+@media (min-width:480px){
+    .u-display-block\@xs{
+        display:block!important
+    }
+}
+.u-display-flex{
+    display:-webkit-box!important;
+    display:-webkit-flex!important;
+    display:-ms-flexbox!important;
+    display:flex!important
+}
+.u-flex-justify-end{
+    -webkit-box-pack:end!important;
+    -webkit-justify-content:flex-end!important;
+    -ms-flex-pack:end!important;
+    justify-content:flex-end!important
+}
+.u-flex-align-center{
+    -webkit-box-align:center!important;
+    -webkit-align-items:center!important;
+    -ms-flex-align:center!important;
+    align-items:center!important
+}
+.u-flex-grow-0{
+    -webkit-box-flex:0!important;
+    -webkit-flex-grow:0!important;
+    -ms-flex-positive:0!important;
+    flex-grow:0!important
+}
+.u-flex-grow-1{
+    -webkit-box-flex:1!important;
+    -webkit-flex-grow:1!important;
+    -ms-flex-positive:1!important;
+    flex-grow:1!important
+}
+.u-margin-bottom-md{
+    margin-bottom:16px!important
+}
+.u-margin-right-xl{
+    margin-right:32px!important
+}
+.u-padding-y-xxs{
+    padding-top:5px!important;
+    padding-bottom:5px!important
+}
+.u-padding-bottom-sm{
+    padding-bottom:11px!important
+}
+.u-padding-right-md{
+    padding-right:16px!important
+}
+.u-padding-bottom-md{
+    padding-bottom:16px!important
+}
+.u-padding-left-md{
+    padding-left:16px!important
+}
+.u-position-fixed{
+    position:fixed!important
+}
+.u-position-fill-x{
+    right:0!important;
+    left:0!important
+}
+.u-position-top{
+    top:0!important
+}
+.u-text-left{
+    text-align:left!important
+}
+.u-text-center{
+    text-align:center!important
+}
+@media (max-width:991px){
+    .u-text-center\@max-md{
+        text-align:center!important
+    }
+}
+.u-text-light{
+    font-weight:300!important
+}
+.u-text-gray{
+    color:#888!important
+}
+.u-text-white{
+    color:#fff!important
+}
+.u-text-wrap{
+    white-space:normal!important
+}
+.u-width-full{
+    width:100%!important
+}
+@media (min-width:992px){
+    .u-width-2\/5\@md{
+        width:40%!important
+    }
+    .u-width-3\/5\@md{
+        width:60%!important
+    }
+}
+.u-height-full{
+    height:100%
+}
+.o-button{
+    display:inline-block;
+    padding:8px 16px;
+    border:1px solid transparent;
+    border-radius:0;
+    background-clip:border-box;
+    background-image:none;
+    font-size:16px;
+    font-weight:400;
+    line-height:1.375;
+    text-align:center;
+    white-space:nowrap;
+    cursor:pointer;
+    vertical-align:middle;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+.o-button:hover{
+    border-color:#ededed;
+    background-color:#ededed;
+    color:#474747
+}
+.o-button{
+    border-color:#fff;
+    background-color:#fff;
+    color:#474747
+}
+.o-button.o-button{
+    text-decoration:none
+}
+.o-button--lg{
+    padding:11px 22px;
+    font-size:19px;
+    line-height:1.2631578947
+}
+.o-button--facebook:hover{
+    border-color:#314a7e;
+    background-color:#314a7e;
+    color:#fff
+}
+.o-button--facebook{
+    border-color:#3b5998;
+    background-color:#3b5998;
+    color:#fff
+}
+.o-button--green:hover{
+    border-color:#6fac3e;
+    background-color:#6fac3e;
+    color:#fff
+}
+.o-button--green{
+    border-color:#81bf4f;
+    background-color:#81bf4f;
+    color:#fff
+}
+.o-button--baby-blue:hover{
+    border-color:#00a9fa;
+    background-color:#00a9fa;
+    color:#fff
+}
+.o-button--baby-blue{
+    border-color:#1fb6ff;
+    background-color:#1fb6ff;
+    color:#fff
+}
+.o-button--inverted-white:hover{
+    border-color:#fff;
+    background-color:rgba(255,255,255,.2);
+    color:#fff
+}
+.o-button--inverted-white{
+    border-color:#d2d2d2;
+    background-color:transparent;
+    color:#d2d2d2
+}
+@font-face{
+    font-family:lovoo-icons;
+    font-style:normal;
+    font-weight:400;
+    src:url(../fonts//lovoo-icons.ttf?v=ua3870527) format("truetype"),url(../fonts//lovoo-icons.woff?v=ua3870527) format("woff"),url(../fonts//lovoo-icons.svg#lovoo-icons) format("svg")
+}
+.o-nav--horizontal{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:stretch;
+    -webkit-align-items:stretch;
+    -ms-flex-align:stretch;
+    align-items:stretch
+}
+.o-grid--list>.o-grid__cell,.o-grid__cell[class*=u-width-]{
+    -webkit-box-flex:0;
+    -webkit-flex:0 1 auto;
+    -ms-flex:0 1 auto;
+    flex:0 1 auto
+}
+.o-grid{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:start;
+    -webkit-align-items:flex-start;
+    -ms-flex-align:start;
+    align-items:flex-start
+}
+.o-grid--middle{
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center
+}
+.o-grid__cell{
+    -webkit-box-flex:1;
+    -webkit-flex:1 0 auto;
+    -ms-flex:1 0 auto;
+    flex:1 0 auto
+}
+.o-grid--list{
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap
+}
+.o-split-line__text{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    margin:22px 0;
+    font-size:.8409em;
+    font-weight:400;
+    letter-spacing:.05em;
+    text-transform:uppercase
+}
+.o-split-line__text::after,.o-split-line__text::before{
+    display:block;
+    -webkit-box-flex:1;
+    -webkit-flex:1;
+    -ms-flex:1;
+    flex:1;
+    height:1px;
+    background-color:#e5e5e5;
+    content:''
+}
+.o-split-line__text::before{
+    margin-right:2em
+}
+.o-split-line__text::after{
+    margin-left:2em
+}
+.o-nav--meta{
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    height:50px
+}
+.trenda-fancy{
+    -ms-font-feature-settings:'ss01' 1;
+    -webkit-font-feature-settings:'ss01' 1;
+    -o-font-feature-settings:'ss01' 1;
+    font-feature-settings:'ss01' 1
+}
+.trenda-regular{
+    font-family:Trenda-Regular;
+    font-weight:400;
+    font-style:normal
+}
+.trenda-bold{
+    font-family:Trenda-Black;
+    font-weight:400;
+    font-style:normal
+}
+.x-marketing-landingpage .c-landingpage-container{
+    font-family:Trenda-Regular,'Helvetica Neue',Helvetica,Arial,sans-serif
+}
+.c-landingpage-container{
+    background:center top no-repeat #fff;
+    background-size:cover!important;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    min-height:60vh
+}
+.c-landingpage-container .c-landingpage-container__inner{
+    width:100%;
+    -webkit-align-self:center;
+    -ms-flex-item-align:center;
+    align-self:center;
+    max-width:1300px;
+    margin:0 auto;
+    padding:0 35px
+}
+@media (min-width:768px){
+    .c-landingpage-container .c-landingpage-container__inner{
+        height:100%
+    }
+}
+@media (max-width:991px){
+    .c-landingpage-container .c-landingpage-container__inner{
+        padding:64px 16px 44px
+    }
+}
+.c-landingpage--welcome{
+    height:100%
+}
+.webp .c-landingpage--welcome{
+    background-image:url(https://webassets.lovoo.com/images/homepage/new/background-2.webp)
+}
+.x-marketing-landingpage.webp .c-landingpage--welcome{
+    background-image:url(https://webassets.lovoo.com/images/homepage/background-5.webp);
+    background-position:bottom
+}
+.c-landingpage--welcome .c-landingpage__register-form{
+    width:100%;
+    max-width:380px;
+    padding:44px;
+    border-radius:8px;
+    background-color:#fff;
+    box-shadow:0 15px 55px -20px #000
+}
+@media (min-width:992px){
+    .c-landingpage--welcome{
+        min-height:775px
+    }
+    .c-landingpage--welcome .c-landingpage__register-form{
+        float:right
+    }
+}
+.c-landingpage--welcome .c-landingpage__h1{
+    margin-top:45px;
+    text-align:center;
+    color:#fff;
+    font-size:64px;
+    font-weight:700;
+    text-shadow:1px 1px 1px rgba(0,0,0,.25);
+    text-transform:none
+}
+@media (max-width:991px){
+    .c-landingpage--welcome .c-landingpage__register-form{
+        margin-right:auto;
+        margin-left:auto;
+        padding:22px
+    }
+    .c-landingpage--welcome .c-landingpage__h1{
+        margin:32px auto 22px;
+        padding-right:22px;
+        padding-left:22px;
+        font-size:44px!important;
+        text-align:center
+    }
+}
+@media (max-width:767px){
+    .c-landingpage--welcome .c-landingpage__h1{
+        font-size:48px!important
+    }
+}
+@media (max-width:479px){
+    .c-landingpage--welcome .c-landingpage__h1{
+        text-align:left
+    }
+}
+.c-landingpage--welcome .c-landingpage__h2{
+    margin-bottom:44px;
+    font-size:32px;
+    font-weight:700;
+    text-align:center;
+    text-transform:none
+}
+@media (max-width:991px){
+    .c-landingpage--welcome .c-landingpage__h2{
+        margin-bottom:32px;
+        font-size:32px
+    }
+}
+.c-landingpage--welcome .c-landingpage__h2>small{
+    display:block;
+    padding-top:16px;
+    color:#474747;
+    font-size:19px
+}
+@media (max-width:767px){
+    .c-landingpage--welcome .c-landingpage__h2{
+        margin-bottom:27px;
+        font-size:24px;
+        font-weight:400
+    }
+    .c-landingpage--welcome .c-landingpage__h2>small{
+        font-size:14px
+    }
+}
+.c-landingpage--welcome .c-landingpage__button-facebook{
+    margin-bottom:11px
+}
+@media (max-width:479px){
+    .c-landingpage--welcome .c-landingpage__button-facebook{
+        font-size:17px
+    }
+}
+.c-landingpage--welcome .c-landingpage__legal-facebook{
+    font-size:14px
+}
+@media (max-width:479px){
+    .c-landingpage--welcome .c-landingpage__legal-facebook{
+        font-size:11px
+    }
+    .c-landingpage--welcome .c-landingpage__button-email{
+        font-size:17px
+    }
+}
+.c-vis-hidden{
+    visibility:hidden
+}
+.x-marketing-landingpage .c-landingpage--welcome .c-landingpage__h1{
+    font-size:96px
+}
+body,html{
+    height:100%
+}
+@font-face{
+    font-family:Trenda-Semibold;
+    src:url(../fonts/trenda/35413A_C_0.eot);
+    src:url(../fonts/trenda/35413A_C_0.eot?#iefix) format("embedded-opentype"),url(../fonts/trenda/35413A_C_0.woff2) format("woff2"),url(../fonts/trenda/35413A_C_0.woff) format("woff"),url(../fonts/trenda/35413A_C_0.ttf) format("truetype")
+}
+@font-face{
+    font-family:Trenda-Regular;
+    src:url(../fonts/trenda/35413A_A_0.eot);
+    src:url(../fonts/trenda/35413A_A_0.eot?#iefix) format("embedded-opentype"),url(../fonts/trenda/35413A_A_0.woff2) format("woff2"),url(../fonts/trenda/35413A_A_0.woff) format("woff"),url(../fonts/trenda/35413A_A_0.ttf) format("truetype")
+}
+@font-face{
+    font-family:Trenda-Black;
+    src:url(../fonts/trenda/35413A_4_0.eot);
+    src:url(../fonts/trenda/35413A_4_0.eot?#iefix) format("embedded-opentype"),url(../fonts/trenda/35413A_4_0.woff2) format("woff2"),url(../fonts/trenda/35413A_4_0.woff) format("woff"),url(../fonts/trenda/35413A_4_0.ttf) format("truetype")
+}

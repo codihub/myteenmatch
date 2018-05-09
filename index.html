@@ -1,0 +1,196 @@
+<html>
+<head>
+    <title>MyTeenMatch - Teen Dating Site for flirting, chatting, and getting to know new people</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.2/css/mdb.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="t-gender-female c-landingpage-body x-marketing-landingpage trenda-regular webp" homepage-scroll-discover="">
+    <div class="u-position-fixed u-position-fill-x u-position-top" style="transition: background-color 0.3s; z-index: 1030;transition: background-color 0.3s; z-index: 1030">
+        <div class="u-display-flex u-flex-align-center" style="width: 100%; max-width: 1300px; height:70px; margin: 0 auto; padding: 0 35px">
+            <div class="u-flex-grow-0 o-nav o-nav--horizontal o-nav--meta">
+                <a href="/" target="_self"><img style="height: 30px; display:none" class="u-display-block@xs" src="img/logo.png"> </a>
+            </div>
+            <div class="o-nav o-nav--horizontal o-nav--meta u-flex-grow-1 u-flex-justify-end">
+                <button class="u-margin-right-xl o-button o-button--green u-padding-y-xxs u-border-radius-round u-hidden@max-xs c-vis-hidden">Register</button>
+                <button class="o-button u-padding-y-xxs u-text-light u-border-radius-round o-button--baby-blue u-text-white" data-toggle="modal" data-target="#LoginModal">Log in</button>
+            </div>
+        </div>
+    </div>
+    <!-- 0 -->
+    <section class="c-landingpage-container c-landingpage--welcome u-display-flex" style="transition: top 0.5s; width: 100%; ">
+        <div class="c-landingpage-container__inner">
+            <div class="o-grid o-grid--middle o-grid-space-between o-grid__center o-grid--list u-height-full">
+                <div class="o-grid__cell u-width-full u-width-3/5@md">
+                    <h1 class="c-landingpage__h1 u-padding-bottom-sm trenda-bold trenda-fancy u-text-left u-text-center@max-md">WHERE<br>TEEN LIFE HAPPENS</h1>
+                </div>
+                <div class="o-grid__cell u-width-full u-width-2/5@md u-hidden@max-sm">
+                    <div class="c-landingpage__register-form u-text-center">
+                        <h2 class="c-landingpage__h2">
+                        Register now <small>and get to know new people.</small>
+                     </h2>
+                        <button class="c-landingpage__button-facebook o-button o-button--facebook o-button--lg u-border-radius-sm u-width-full u-text-wrap">
+                            Register with Facebook
+                        </button>
+                        <p class="c-landingpage__legal-facebook u-text-gray">
+                            We won't post anything using your name.
+                        </p>
+                        <div class="o-split-line u-margin-bottom-md">
+                            <div class="o-split-line__text">or</div>
+                        </div>
+                        <button type="button" class="c-landingpage__button-email o-button o-button--green o-button--lg u-border-radius-sm u-width-full u-text-wrap" data-toggle="modal" data-target="#RegisterModal">
+  Register with Email
+</button>
+
+
+                    </div>
+                </div>
+                <div class="o-grid__cell u-width-full u-hidden@sm">
+                    <div class="o-grid__cell u-width-full u-padding-left-md u-padding-right-md u-padding-bottom-md">
+                        <a target="_blank" href="#" class="c-landingpage__button-email o-button o-button--baby-blue u-border-radius-round o-button--lg u-width-full u-text-wrap padding-top-sm padding-bottom-sm">
+                     Download app
+                     </a>
+                    </div>
+                    <div class="o-grid__cell u-width-full u-padding-left-md u-padding-right-md">
+                        <button class="o-button o-button--inverted-white u-text-white o-button--lg u-border-radius-round u-width-full u-text-wrap padding-top-sm padding-bottom-sm">
+                            Create account
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LoginTitle">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+                    <form action="#" method="get" id="loginmob">       
+                      <div class="form-group">
+                        <label for="logusernamemob">Name</label>
+                        <input type="text" class="form-control" placeholder="Username or Email" id="logusernamemob">
+                      </div>
+                      <div class="form-group">
+                        <label for="logpasswordmob">Password:</label>
+                        <input type="password" class="form-control" placeholder="Password" id="logpasswordmob">
+                      </div>
+                      <div class="submit-btn">
+                        <input type="submit" class="btn btn-primary btn-login-ok-mob" value="Sign In"/>
+                      </div>
+                    </form>
+                                                        <center>  <div class="error-login">
+            </center>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"><i class="fa fa-facebook"></i> Connect</button>
+              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#ForgotPassModal">Reset Password</button>
+              </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+              <!-- Modal Structure -->
+
+<!-- Modal -->
+<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="RegisterModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+                <div class="form-block-right pull-right">
+                <div class="initialblock">
+                     <div class="form-block-right-dp">
+                     <p>I am a</p>
+                      </div>
+                   <div class="form-block-right-dp">
+                        <div class="form-group">
+                          <select class="form-control">
+                            <option>Straight</option>
+                            <option>Gay</option>
+                            <option>Bisexual</option>
+                        
+                          </select>
+                       </div>
+                   </div>
+                    <div class="form-block-right-dp">
+                        <div class="form-group">
+                          <select class="form-control">
+                            <option>Man</option>
+                            <option>Woman</option>
+                          </select>
+                       </div>
+                   </div>
+                   <div class="submit-btn">
+                    <input type="submit" class="btn btn-primary" value="Continue"/>
+                   </div>
+                </div><!-- end of initial block-->
+                <div class="register-block">
+                      <div class="form-block-right-dp">
+                      <div class="form-group">
+                          <label for="usr">Name</label>
+                          <input type="text" class="form-control" placeholder="Enter  your user name" id="usr">
+                     </div>
+                     <div class="form-group">
+                          <label for="usr">Email</label>
+                          <input type="text" class="form-control" placeholder="Enter  your email" id="usr">
+                     </div>
+                    <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" placeholder="Enter a secure password" id="pwd">
+                        </div>
+                     <div class="form-group">
+                          <label for="usr">How much is six more five ?</label>
+                          <input type="text" class="form-control" placeholder="your answer with number" id="usr">
+                     </div>
+                        <div class="submit-btn">
+                            <input type="submit" class="btn btn-info" value="Register"/>
+                          </div>
+                          
+                          <div class="terms-and-condition">
+                            By signing up you agree to <a href="#">our Terms of Service</a>
+              </div>
+
+    </div>
+  </div>
+</div>
+</div>
+       
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.2/js/mdb.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script>
+  $(".register-block").hide();
+    $(".initialblock").show();
+
+    $(".submit-btn").click(function(){
+
+    $(".initialblock").hide();
+    $(".register-block").show();
+    
+    
+});
+
+</script>
+
+
+
+</body>
+</html>
